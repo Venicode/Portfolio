@@ -1,0 +1,55 @@
+.container-projects{
+    margin-top: 2%;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    
+    width: 44%;
+    background: #ECECEC;
+    padding: 2rem;
+    margin: 0.5%;
+    border-radius: 10px;
+}
+.projects{
+    display: flex;
+    position: relative;
+    width: 95vh;
+}
+.title-project{
+    display: flex;
+    align-items: center;
+}
+.title-project .icon{
+    width: 3rem;
+    height: 3rem;
+}
+.open{
+    width: 2rem;
+    height: 2rem;
+    float: right;
+}
+.buttons-language{
+    display: flex;
+    position: relative;
+    width: 50vh;
+}
+.buttons-language button{
+    background: #313131;
+    color: #fff;
+    width: 30%;
+    height: 2rem;
+    border-radius: 10px;
+    border: none;
+    margin: 0.5%;
+    font-family: "Share Tech Mono", monospace;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.buttons-langauge button:hover{
+    cursor: pointer;
+    background: #466BC9;
+}
