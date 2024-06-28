@@ -1,0 +1,71 @@
+.resume-project{
+    
+    margin-top: 2%;
+    z-index: 5;
+    background: #d27a3b;
+    display: flex;
+    height: 25rem;
+    border-radius: 20px;
+    padding: 2rem;
+    width: 90vh;
+    color: #ffffff;
+}
+.resume-project-nobg{
+    
+    margin-top: 2%;
+    z-index: 5;
+    display: flex;
+    height: 25rem;
+    border-radius: 20px;
+    padding: 2rem;
+    width: 90vh;
+    color: #ffffff;
+}
+.text{
+    padding-top: 0%;
+    text-align: justify;
+}
+.resume-project h2{
+    font-size: 40px;
+}
+.resume-project p{
+    font-size: 25px;
+}
+.content{
+    margin-top: 2%;
+}
+#docker{
+background: #466BC9;
+}
+#file{
+    background: #e46842;
+}
+#site{
+    background: #90ac15;
+} 
+.buttons-projects{
+    display: flex;
+    position: relative;
+    width: 95vh;
+}
+.buttons-projects a button {
+    background: none;
+    color: #fff;
+    border: none;
+    font-family: "Share Tech Mono", monospace;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.buttons-projects a {
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    background: #313131;
+    width: 50%;
+    height: 5rem;
+    border-radius: 10px;
+    border: none;
+    margin: 0.5%;
+}

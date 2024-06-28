@@ -38,6 +38,7 @@ body{
     width: 90vh;
     color: #313131;
 }
+
 .introduction-wrapper {
     position: relative;
     width: 100%;
@@ -75,6 +76,7 @@ body{
     width: auto;
 }
 .container-buttons{
+    margin-top: 2%;
     position: relative;
     width: 100%;
     display: flex;
@@ -101,4 +103,38 @@ body{
 .buttons button:hover{
     cursor: pointer;
     background: #466BC9;
+}
+.icons-language{
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -2%;
+    margin-bottom: 2%;
+    
+}
+.icons-language img{
+    width: 5rem;
+    opacity: 0.5;
+}
+.download{
+    position: absolute;
+    z-index: 1000;
+    right: 10px;
+    padding: 0.5rem;
+    background: #466BC9;
+    color: #fff;
+    height: 3rem;
+    border-radius: 10px;
+    border: none;
+    margin: 1rem;
+    font-family: "Share Tech Mono", monospace;
+    font-size: 1rem;
+    text-transform: uppercase;
+    width: 10rem;
+}
+.download:hover{
+    background: #2b4586;
+    cursor: pointer;
 }

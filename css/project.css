@@ -6,14 +6,42 @@
     justify-content: center;
     align-items: center;
 }
-.card{
-    
+.card {
+    color: #fff;
+    position: relative; /* Necessário para o posicionamento do pseudo-elemento */
     width: 44%;
-    background: #ECECEC;
     padding: 2rem;
     margin: 0.5%;
     border-radius: 10px;
+    background-color: rgba(26, 26, 26, 0.7); /* Define a cor de fundo com opacidade */
+    overflow: hidden; 
 }
+
+.card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../assets/projects/venimarket/print-cmd.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+    z-index: -1;
+    border-radius: 10px;
+}
+
+.card:hover{
+    background: #313131;
+    color:#fff;
+    cursor: pointer;
+}
+.card a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
 .projects{
     display: flex;
     position: relative;
@@ -38,7 +66,7 @@
     width: 50vh;
 }
 .buttons-language button{
-    background: #313131;
+    background: #466BC9;
     color: #fff;
     width: 30%;
     height: 2rem;
@@ -49,7 +77,23 @@
     font-size: 15px;
     text-transform: uppercase;
 }
-.buttons-langauge button:hover{
+.buttons-language button:hover{
     cursor: pointer;
     background: #466BC9;
+}
+.img-container{
+    margin-bottom: 2%;
+    height: 10rem;
+    background-image: url('../assets/projects/api-venimarket/print-swagger.jpg');
+    background-size: cover;
+    border-radius: 10px;
+    background-position: center;
+}
+.img-container-2{
+    margin-bottom: 2%;
+    height: 10rem;
+    background-image: url('../assets/projects/venimarket/print-cmd.png');
+    background-size: cover;
+    border-radius: 10px;
+    
 }
